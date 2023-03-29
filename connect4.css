@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    /* margin: 0 auto will center a div */
+    margin: 0 auto; 
+    height: 33.75rem;
+    width: 39.375rem;
+    background-color: #d9b4e2;
+    border: 0.65rem solid #beafe1;
+
+    flex-wrap: wrap;
+}
+
+.tile{
+
+    height: 4.375rem;
+    width: 4.375rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0.3125rem;
+    border: 0.3125rem solid #beafe1;
+
+}
+
+.red-piece{
+    background-color: red;
+}
+
+.yellow-piece{
+    background-color: yellow;
+}
